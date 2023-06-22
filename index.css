@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.body{
+    background-color: aquamarine;
+}
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+#search-container {
+    margin: lem 0;
+}
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid rgb(2, 2, 39);
+    padding: 1em 0.3em;
+}
+
+#search-container input:focus {
+    border-bottom-color: azure;
+}
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: rgb(46, 46, 250);
+    color:aliceblue;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+.button-value{
+    margin-top: 20px;
+    border: 2px solid grey;
+    padding: 1em 2.5em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+}
+.active{
+    background-color: grey;
+    color: white;
+}
+#tag{
+  margin-top:5%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+#container1{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: #f42929;
+
+}
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: rgb(245, 127, 24);
+
+}
+#container3{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color:cadetblue;
+
+}
+#container4{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: darkolivegreen;
+
+}
+#container5{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color:beige
+
+}
+#container6{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: darkolivegreen;
+
+}
+.card {
+    height: 290px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+.chip{
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 3px white;
+    cursor: pointer;
+    color: black;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+#tags{
+    margin-top: 25px;
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
